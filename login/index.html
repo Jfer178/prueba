@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UNIVERSIDAD LIBRE </title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/imagenes/ulibre_ctg_h.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-form">
+            <form class="sign-in">
+                <h1> INICIAR SESION </h1>
+                <div class="socialnetworks">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                <span>USE SU CORREO Y CONTRASEÑA</span>
+                <div class="container-input">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Correo Institucional">
+                </div>
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="text" placeholder="Contraseña">
+                </div>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button class="button"> INICIAR </button>
+            </form>
+
+        </div>
+        <div class="container-form">
+            <form class="sign-up">
+                <h1> REGISTRARSE </h1>
+                <div class="socialnetworks">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                <span> ¡VAMOS A REGISTRARNOS!</span>
+                <div class="container-input">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Nombre Completo">
+                </div>
+
+                <div class="container-input">
+                    <ion-icon name="id-card-outline"></ion-icon>
+                    <input type="text" placeholder="Cedula">
+                </div>
+
+                <div class="container-input">
+                    <ion-icon name="school-outline"></ion-icon>
+                    <label for="Carrera">Carrera</label>
+                    <select name="Carrera" id="carrera">
+                        <option value="--"></option>
+                        <option value="ING.SISTEMAS">ING.SISTEMAS</option>
+                        <option value="ING.INDUSTRIAL">ING.INDUSTRIAL</option>
+                        <option value="ING.CIVIL">ING.CIVIL</option>
+                        <option value="ING.CIENCIA DE DATOS">ING.CINCIA DE DATOS</option>
+                        <option value="ING.AMBIENTAL">ING.AMBIENTAL</option>
+                    </select>
+                </div>
+                <div class="container-input">
+                    <ion-icon name="today-outline"></ion-icon>
+                    <input type="date" placeholder="Dia de nacimiento">
+                </div>
+                <button class="button"> REGISTRARSE </button>
+            </form>
+        </div>
+
+        <div class="container-welcome">
+            <div class="welcome-sign-up welcome">
+                <h3>¡Registrate!</h3>
+                <p>¡Te interesa estudar aqui! Registrate, para acceder a tus cursos</p>
+                <button class="button" id="btn-sign-up">Registrarse</button>
+            </div>
+            <div class="welcome-sign-in welcome">
+                <h3>¡INGRESA E-LIBRE!</h3>
+                <p>Regístrese con sus datos personales para usar todas las funciones del sitio</p>
+                <button class="button" id="btn-sign-in">Iniciar Sesión</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="/scripts.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
